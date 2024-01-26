@@ -66,6 +66,4 @@ Hover effects have been implemented for the `SongRow` component. When a user hov
 
 Feel free to explore the code and make any enhancements or modifications based on your requirements.
 
-#
-
 Happy coding!
