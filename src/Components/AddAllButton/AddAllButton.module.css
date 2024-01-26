@@ -1,0 +1,27 @@
+.buttonFormTrack {
+    padding: 0;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.buttonFormTrack img{
+    width: 14px;
+}
+.buttonFormTrack p {
+  width: 70%;
+  font-size: 15px;
+}
+.buttonFormTrack span {
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    border-left: 1px solid gray;
+}
+
+
+

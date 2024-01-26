@@ -1,0 +1,31 @@
+.firstAndLastColumn{
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  border-bottom: 2px solid rgb(215, 215, 215);
+transition: background-color 0.3s ease;
+} 
+tr:hover .firstAndLastColumn {
+    background-color: lightgray;
+    /* Change background color on hover */
+}
+tr td:first-child img {
+    width: 15px;
+}
+tr td:last-child img:last-child {
+    width: 10px;
+    height: 15px;
+}
+tr td:last-child img {
+    width: 15px;
+    height: 15px;
+}
+tr td {
+    border-bottom: 2px solid rgb(215, 215, 215);
+    transition: background-color 0.3s ease;
+}
+tr:hover td {
+    background-color: lightgray;
+    /* Change background color on hover */
+}

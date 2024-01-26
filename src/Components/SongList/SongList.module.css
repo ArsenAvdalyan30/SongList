@@ -1,0 +1,10 @@
+table {
+  width: 50%;
+}
+
+table thead {
+  width: 100%;
+  text-align: left;
+  height: 35px;
+  background-color: rgb(238, 235, 235);
+}

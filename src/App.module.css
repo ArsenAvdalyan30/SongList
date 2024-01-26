@@ -1,0 +1,64 @@
+.app {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.songBar {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(204, 202, 202);
+  border-radius: 8px;
+  background-color: rgb(238, 235, 235);
+  box-shadow: inset 0px -2px 4px rgba(154, 154, 154, 0.3);
+}
+.buttonsContainer {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+}
+.buttonsContainer button {
+  padding: 0;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buttonsContainer button span:first-child {
+  font-size: 15px;
+}
+.buttonsContainer button span:last-child {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+  border-left: 1px solid gray;
+}
+.buttonFormSpan1 {
+  width: 70%;
+  font-size: 15px;
+}
+.inputContainer {
+  position: relative;
+}
+.inputContainer input {
+  width: 96%;
+  height: 85%;
+  background-size: 16px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-image: url("./Assets/search.png");
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.inputContainer input::placeholder {
+  padding-left: 20px;
+}
+

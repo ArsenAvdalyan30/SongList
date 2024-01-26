@@ -1,0 +1,10 @@
+.upload{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(204, 202, 202);
+    border-radius: 8px;
+    background-color: rgb(238, 235, 235);
+    box-shadow: inset 0px -2px 4px rgba(154, 154, 154, 0.3);
+    padding: 4px;
+}
